@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <form name="cal" class="cal-box">
+            
+            
+            <input type="text" name="display" id="display" placeholder="0">
+            <br>
+
+            <div class="button-box">
+                <input type="button" class="btn-s" id="btn-s8" value="CE" onclick="cal.display.value =''">
+                <input type="button" class="btn-s" id="btn-s2" value="%" onclick="cal.display.value +='%'">
+                <input type="button" class="btn-s" id="btn-s1" value="+/-" onclick="cal.display.value +='+/-'">
+                <input type="button" class="btn-s" id="btn-s3" value="/" onclick="cal.display.value +='/'">
+               
+   
+                <br>
+
+                <input type="button" class="btn" value="7" onclick="cal.display.value +='7'">
+                <input type="button" class="btn" value="8" onclick="cal.display.value +='8'">
+                <input type="button" class="btn" value="9" onclick="cal.display.value +='9'">
+                <input type="button" class="btn-s" id="btn-s4" value="*" onclick="cal.display.value +='*'">
+                
+               
+                <br>
+
+                <input type="button" class="btn" value="4" onclick="cal.display.value +='4'">
+                <input type="button" class="btn" value="5" onclick="cal.display.value +='5'">
+                <input type="button" class="btn" value="6" onclick="cal.display.value +='6'">
+                <input type="button" class="btn-s" id="btn-s5" value="-" onclick="cal.display.value +='-'">
+                
+               
+                <br>
+
+                <input type="button" class="btn" value="1" onclick="cal.display.value +='1'">
+                <input type="button" class="btn" value="2" onclick="cal.display.value +='2'">
+                <input type="button" class="btn" value="3" onclick="cal.display.value +='3'">
+                <input type="button" class="btn-s" id="btn-s6" value="+" onclick="cal.display.value +='+'">
+
+
+                <br>
+                <input type="button" class="btn-s" id="btn-s6" value="R" onclick="cal.display.value +='R'">
+                <input type="button" class="btn" value="0" onclick="cal.display.value ='0'">
+                <input type="button" class="btn" id="btn-s7" value="." onclick="cal.display.value +='.'">
+                <input type="button" class="btn-s" id="btn-s9" value="=" onclick="cal.display.value = eval(cal.display.value)">
+            </div>
+
+        </form>
+    </div>
+
+    <footer>
+        <h3>Created By:</h3><span>Mohammed Abrar</span>
+    </footer>
+    
+</body>
+</html>

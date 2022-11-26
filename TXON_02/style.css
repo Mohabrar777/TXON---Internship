@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(212, 212, 210);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin-top: 30px;
+    
+}
+
+.cal-box{
+    border: 1px solid black;
+    box-shadow: 5px 5px 15px 3px rgb(39, 39, 39);
+    padding: 50px 28px 50px 38px;
+    background: linear-gradient(#1d1708 ,#1a044e);
+   
+   
+    border-radius: 40px;
+    
+    
+}
+
+.btn:hover{
+    background-color: rgb(0, 48, 143);
+    border: 1px solid rgb(55, 55, 123);
+    font-weight: bold;
+    color: white;
+}
+
+
+#display{
+    height: 80px;
+    width: 230px;
+    font-size: 25px;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: #1a044e;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.btn-s{
+    padding: 12px 13px;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+/* #btn-s{
+    padding: 12px 19px;
+} */
+
+.btn{
+    padding: 14px 21px;
+    text-align: center;
+    margin-right: 12px;
+    background: rgb(192, 192, 192);
+    color: black;
+    font-weight: bold;
+    border: 1px solid rgb(175, 164, 164);
+    /* font-size: 20px; */
+    
+}
+
+.button-box input{
+    border-radius: 10px;
+}
+
+#btn-s5,#btn-s4,#btn-s3,#btn-s8{
+    padding: 16px 22px;
+    
+}
+
+#btn-s1,#btn-s2{
+    padding: 16px 18px;
+    /* font-size: 20px; */
+}
+
+#btn-s7{
+    padding: 15px 23px;
+    
+}
+
+#btn-s6{
+    padding: 16px 22px;
+    
+    /* height: 100px; */
+    
+}
+#btn-s8{
+    padding: 16px 16px;
+}
+#btn-s9{
+    padding: 16px 20px;
+}
+
+#btn-s1,#btn-s2,#btn-s3,#btn-s4,#btn-s5,#btn-s6,#btn-s8,#btn-s9{
+    background:linear-gradient(rgb(255, 0, 157),rgb(0, 217, 255));
+    color: white;
+    font-weight: bold;
+}
+
+
+footer{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+span{
+    
+    color: rgb(0, 0, 197);
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 5px;
+
+}
